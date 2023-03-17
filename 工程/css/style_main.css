@@ -1,7 +1,7 @@
 .header-bar {
 	width: 100%;
 	height: 40px;
-	margin-left: 50px;
+	margin-left: -20px;
 	margin-right: 50px;
 	background-attachment: scroll;
 	background-clip: border-box;
@@ -30,16 +30,35 @@
 	font-size: 15px;
 	align-content: center;
 }
-.titletext {
-  width: 1520px;
-  height: 200px;
-	margin-left: 20px;
-	margin-right: 20px;
-	position:static;
-	align-self:center;
-	border: dashed;
+.button_main{
+	width: 64px;
+	height:27.5px;
 }
-.login {
+.container{
+	width: 1000px;
+	height:210px;
+	margin: 200px 0 0 100px;
+	overflow: hidden;
+}
+.container ul{
+	display: flex;
+	width: 2000px;
 	height: 200px;
-	border: dashed;
+	animation: myani 7s linear infinite;
+}
+.container ul li{
+	width: 2000px;
+	height: 200px;
+}
+.container ul li img{
+	width: 100%;
+	height: 100%;
+}
+@keyframes myani {
+	from {
+		transform:translateX(0px) ;
+	}
+	to{
+		transform: translateX(-1400px);
+	}
 }
