@@ -1,31 +1,25 @@
 .header-bar {
+	min-width: 1248px;
 	width: 100%;
 	height: 40px;
-	margin-left: -20px;
-	margin-right: 50px;
-	background-attachment: scroll;
-	background-clip: border-box;
-	background-origin: padding-box;
-	background-size: auto;
-	align-self: center;
+	margin:0 ;
+	display: flex;
+	-webkit-box-pack: justify;
 }
 .header-content{
-	height: 20px;
-	width: 100%;
-	padding-bottom: 35px;
-	margin-top:-20px;
-	margin-bottom: 0px;
-	margin-left: 20px;
-	margin-right: 20px;
-	align-self: center;
-	background-color: #F8F8F8;
+	height: 40px;
+	width: 1248px;
+	min-width: 100%;
+	margin-top:-10px;
+	position: relative;
+	background-color:whitesmoke;
 }
 .button{
 	float:right;
 	width:100px;
 	height: 20px;
-	margin-top: 20px;
-	margin-right:25px;
+	margin-top: 10px;
+	margin: right 20px;
 	font-family: "宋体";
 	font-size: 15px;
 	align-content: center;
@@ -34,31 +28,24 @@
 	width: 64px;
 	height:27.5px;
 }
-.container{
-	width: 1000px;
-	height:210px;
-	margin: 200px 0 0 100px;
-	overflow: hidden;
+.main_body{
+	width: 1248px;
+	height: auto;
 }
-.container ul{
-	display: flex;
-	width: 2000px;
-	height: 200px;
-	animation: myani 7s linear infinite;
+.body_nav{
+	width: 1248px;
+	height: 50px;
+
 }
-.container ul li{
-	width: 2000px;
-	height: 200px;
+.nav_contain li{
+	float: left;
+	width:80px;
+	list-style:none;
 }
-.container ul li img{
+.footer{
+	min-width: 1248px;
 	width: 100%;
-	height: 100%;
-}
-@keyframes myani {
-	from {
-		transform:translateX(0px) ;
-	}
-	to{
-		transform: translateX(-1400px);
-	}
+	height: 40px;
+	align-self: center;
+	background-color:whitesmoke;
 }
