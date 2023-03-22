@@ -2,9 +2,9 @@
 /* CSS Document */
 
 body {
-    background-image: url("images/login.jpg");;
+    background-image: url("../img/login/background.jpg");
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
  
 #login_frame {
