@@ -1,25 +1,29 @@
+#body {
+	background-color:#EAE8EB;
+}
 .header-bar {
-	min-width: 1248px;
-	width: 100%;
+	min-width: 100%;
+	width: 1448px;
 	height: 40px;
 	margin:0 ;
-	display: flex;
-	-webkit-box-pack: justify;
+	position: absolute;
+	left: 0px;
+	top: 0px;
 }
 .header-content{
 	height: 40px;
-	width: 1248px;
+	width: 1448px;
 	min-width: 100%;
-	margin-top:-10px;
 	position: relative;
-	background-color:whitesmoke;
+	background-color:rgb(249, 249, 249);
 }
 .button{
-	float:right;
-	width:100px;
+	float: right;
+	position: relative;
+	right: 30px;
+	top: 10px;
+	width: 60px;
 	height: 20px;
-	margin-top: 10px;
-	margin: right 20px;
 	font-family: "宋体";
 	font-size: 15px;
 	align-content: center;
@@ -29,23 +33,46 @@
 	height:27.5px;
 }
 .main_body{
-	width: 1248px;
-	height: auto;
+	width: 1348px;
+	height: 940px;;
+	position: absolute;
+	border-radius: 20px;
+	background-color: white;
+	left: 80px;
+	top: 60px;
 }
-.body_nav{
-	width: 1248px;
-	height: 50px;
 
-}
-.nav_contain li{
+.container_left{
+	position: relative;
 	float: left;
-	width:80px;
-	list-style:none;
+	left: 20px;
+	top: 20px;
+	width: 643px;
+	height: 900px;
+	margin: 0,0,20px,20px;
+	border-radius: 20px;
+	background-color:rgb(250, 250, 250);
+}
+.container_left a{
+	font-size: 20px;
+}
+.container_right{
+	position: relative;
+	float: right;
+	top: 20px;
+	right: 20px;
+	width: 643px;
+	height: 900px;
+	margin: 0,20px,20px,0;
+	border-radius: 20px;
+	background-color: rgb(249, 249, 249);
 }
 .footer{
-	min-width: 1248px;
-	width: 100%;
-	height: 40px;
-	align-self: center;
-	background-color:whitesmoke;
+	position: absolute;
+	min-width: 100%;
+	width: 1448px;
+	height: 38px;
+	background-color: rgb(249,249,249);
+	left: 0px;
+	top: 1125px;
 }
