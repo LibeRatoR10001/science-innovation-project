@@ -31,13 +31,14 @@ form p > * {
  
 #image_logo {
     margin-top: 22px;
+	
 }
  
 .label_input {
     font-size: 14px;
     font-family: 宋体;
  
-    width: 65px;
+    width: 64px;
     height: 28px;
     line-height: 28px;
     text-align: center;
