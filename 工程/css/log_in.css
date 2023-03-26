@@ -1,0 +1,125 @@
+.body{
+    background-image: url("../img/svg.png");
+    background-repeat: no-repeat;
+    background-size:unset;
+}
+.container{
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    width: 60%;
+    height: 70%;
+    background-image: url("../img/");
+    border: none;
+    border-radius: 20px;
+}
+picture{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 45%;
+    height: 100%;
+}
+.login_section{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 40%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.form_box{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.form_box h2{
+    top: 0;
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+}
+.form_box .input_box{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    border-bottom: 2px solid #000;
+    margin: 20px 0;
+}
+.input_box input{
+    width: 100%;
+    height: 100%;
+    left: 20px;
+    bottom: 0;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.input_box label{
+    position: absolute;
+    top: 13px;
+    left: 0px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    font-weight: 200px;
+    color: #000;
+    pointer-events: none;
+    transition: .5s ease;
+}
+.input_box .icon{
+    position: absolute;
+    font-size: 20px;
+    top: 7px;
+    right: 0;
+}
+.input_box input:focus~label,
+.input_box input:valid~label{
+    top: -8px;
+}
+.remember-password{
+    font-size: 17px;
+    font-weight: 500;
+    margin: -10px 0 15px;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+.remember-password label input{
+    margin-right: 3px;
+}
+.remember-password a{
+    color: #000;
+    text-decoration: none;
+}
+.remember-password a:hover{
+    text-decoration: underline;
+}
+.btn{
+    background-color:#f72d7a;
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    box-shadow: rgba(0,0,0,0.4);
+}
+.create-account{
+    color: #000;
+    font-size: 16px;
+}
+.create-account p a{
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+}
+.create-account p a:hover{
+    text-decoration: underline;
+}

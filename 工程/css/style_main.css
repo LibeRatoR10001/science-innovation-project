@@ -32,6 +32,62 @@
 	width: 64px;
 	height:27.5px;
 }
+.search_bar{
+	position: absolute;
+	min-width: 100%;
+	width: 1448px;
+	height: 600px;
+	top: 40px;
+	left:0;
+	background-image: url("../img/插画1.webp");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.search_field{
+	position: absolute;
+	min-width: 50%;
+	height: 50px;
+	top: 325px;
+	left: 25%;
+	align-items: center;
+	background-color: transparent;
+	border: 5px solid ;
+	border-color:darkgray;
+	border-radius: 5px;
+	display: flex;
+}
+.search_field input{
+	width: 90%;
+	height: 96%;
+	font-size: 20px;
+	font-weight: 50px;
+	border: none;
+	outline:none;
+	cursor: pointer;
+}
+.search_btn{
+	position: absolute;
+	min-width: 10%;
+	height: 100%;
+	right: 0;
+	background-color:darkgreen;
+	border: none;
+	outline: none;
+	padding: none;
+	font-size: 20px;
+}
+.search_btn:hover::before
+.search_btn:hover::after{
+	background-color: #fff;
+}
+.search_btn:hover{
+	background-color: aquamarine;
+}
+.search_btn i{
+	font-size: 30px;
+	align-self: center;
+}
 .main_body{
 	width: 1348px;
 	height: 940px;;
@@ -39,9 +95,8 @@
 	border-radius: 20px;
 	background-color: white;
 	left: 80px;
-	top: 60px;
+	top: 700px;
 }
-
 .container_left{
 	position: relative;
 	float: left;
@@ -74,5 +129,5 @@
 	height: 38px;
 	background-color: rgb(249,249,249);
 	left: 0px;
-	top: 1125px;
+	top: 2000px;
 }
